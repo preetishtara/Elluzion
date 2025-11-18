@@ -14,7 +14,7 @@ const ContactForms = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:7777/api/contacts", {
+      const response = await fetch("https://api-5vkb.onrender.com/api/contacts", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
